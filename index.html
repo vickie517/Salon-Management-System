@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Haven</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+    Beauty Haven
+</div>
+
+    <nav>
+
+ <a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#booking">Booking</a>
+<a href="#contact">Contact</a>
+
+
+    </nav>
+
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+
+    <h1>LuxeGlow Beauty Lounge</h1>
+
+    <p>
+        Beauty. Confidence. Elegance.
+    </p>
+
+    <p class="hero-description">
+
+        Experience luxury salon, barber, spa,
+        massage, facial and nail services
+        delivered by experienced professionals.
+
+    </p>
+
+    <div class="hero-buttons">
+
+        <button>Book Appointment</button>
+
+        <button class="secondary-btn">
+            View Services
+        </button>
+
+    </div>
+
+</div>
+
+</section>
+
+<section class="features">
+
+    <h2>Why Choose LuxeGlow?</h2>
+
+    <div class="features-container">
+
+        <div class="feature">
+            <h3>⭐ Expert Stylists</h3>
+            <p>Certified professionals with years of experience.</p>
+        </div>
+
+        <div class="feature">
+            <h3>💎 Premium Products</h3>
+            <p>We use trusted brands for healthy hair and skin.</p>
+        </div>
+
+        <div class="feature">
+            <h3>❤️ Relaxing Environment</h3>
+            <p>A clean, peaceful space where you can unwind.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img src="images/about.jpg" alt="Beauty Haven Salon">
+    </div>
+
+    <div class="about-text">
+
+        <h2>About Beauty Haven</h2>
+
+        <p>
+            At Beauty Haven, we believe everyone deserves to look and feel their best.
+            Our professional team provides premium salon, barber, nail spa, massage,
+            facial, and makeup services in a clean, relaxing, and welcoming environment.
+        </p>
+
+        <p>
+            Whether you're preparing for a wedding, an important meeting, or simply
+            treating yourself, we're here to deliver exceptional service every time.
+        </p>
+
+        <button>Learn More</button>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+        <div class="card">
+            <h3>💇 Hair Salon</h3>
+            <p>Professional hair cutting, styling, coloring and treatment.</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="card">
+            <h3>💈 Barber</h3>
+            <p>Modern haircuts, beard trimming and grooming services.</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="card">
+            <h3>💅 Nail Spa</h3>
+            <p>Manicure, pedicure and creative nail art designs.</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="card">
+            <h3>💆 Massage</h3>
+            <p>Relaxing full body massage by experienced therapists.</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="card">
+            <h3>✨ Facial</h3>
+            <p>Facial cleansing, exfoliation and skin rejuvenation treatments.</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="card">
+            <h3>💄 Makeup</h3>
+            <p>Professional makeup for weddings, parties and special events.</p>
+            <button>Book Now</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+    <h2>Our Gallery</h2>
+
+    <p>See some of our amazing work.</p>
+
+    <div class="gallery-container">
+
+        <img src="images/hair.jpg" alt="Hair Styling">
+
+        <img src="images/barber.jpg" alt="Barber">
+
+        <img src="images/nails.jpg" alt="Nail Spa">
+
+        <img src="images/facial.jpg" alt="Facial">
+
+        <img src="images/massage.jpg" alt="Massage">
+
+        <img src="images/makeup.jpg" alt="Makeup">
+
+    </div>
+
+</section>
+
+<section class="booking" id="booking">
+
+    <h2>Book an Appointment</h2>
+
+    <p>Select your preferred service and schedule your visit.</p>
+
+    <form id="bookingForm">
+
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <select id="service" required>
+            <option value="">Choose a Service</option>
+            <option>Hair Salon</option>
+            <option>Barber</option>
+            <option>Massage</option>
+            <option>Nail Spa</option>
+            <option>Facial</option>
+            <option>Makeup</option>
+        </select>
+
+        <input type="date" id="date" required>
+
+        <input type="time" id="time" required>
+
+        <textarea
+            id="notes"
+            placeholder="Additional Notes (Optional)"
+            rows="5">
+        </textarea>
+
+        <button type="submit">
+            Book Appointment
+        </button>
+
+    </form>
+
+</section>
+
+<section class="testimonials">
+
+    <h2>What Our Clients Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial">
+            <p>"The best salon experience I've ever had. The staff were friendly and professional."</p>
+            <h4>- Sarah W.</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"Excellent barber service. Clean environment and very skilled barbers."</p>
+            <h4>- James K.</h4>
+        </div>
+
+        <div class="testimonial">
+            <p>"I loved my manicure and facial. I'll definitely come back!"</p>
+            <h4>- Grace M.</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="team">
+
+    <h2>Meet Our Team</h2>
+
+    <div class="team-container">
+
+        <div class="member">
+            <img src="images/stylist.jpg" alt="Hair Stylist">
+            <h3>Mary</h3>
+            <p>Senior Hair Stylist</p>
+        </div>
+
+        <div class="member">
+            <img src="images/barber-team.jpg" alt="Barber">
+            <h3>Kevin</h3>
+            <p>Professional Barber</p>
+        </div>
+
+        <div class="member">
+            <img src="images/spa.jpg" alt="Spa Therapist">
+            <h3>Linda</h3>
+            <p>Spa & Massage Therapist</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-info">
+
+        <p><strong>📍 Address:</strong> Nairobi, Kenya</p>
+
+        <p><strong>📞 Phone:</strong> +254 700 123 456</p>
+
+        <p><strong>📧 Email:</strong> info@beautyhaven.com</p>
+
+        <p><strong>🕒 Hours:</strong> Mon - Sun | 8:00 AM - 8:00 PM</p>
+
+    </div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
