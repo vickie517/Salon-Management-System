@@ -66,12 +66,13 @@
 
     <div class="hero-buttons">
 
-        <button>Book Appointment</button>
+        <a href="#booking" class="hero-btn">
+    Book Appointment
+</a>
 
-        <button class="secondary-btn">
-            View Services
-        </button>
-
+        <a href="#services" class="secondary-btn">
+    View Services
+</a>
     </div>
 
 </div>
@@ -139,37 +140,58 @@
         <div class="card">
             <h3>💇 Hair Salon</h3>
             <p>Professional hair cutting, styling, coloring and treatment.</p>
-            <button>Book Now</button>
+            <button onclick="bookService('Hair Salon')">
+                Book Now
+            </button>
         </div>
+
+        <div class="card">
+    <h3>🧑🏾‍🦱 Dreadlocks</h3>
+    <p>Dreadlock installation, retwist, styling, repair and maintenance.</p>
+
+    <button onclick="bookService('Dreadlocks')">
+        Book Now
+    </button>
+</div>
 
         <div class="card">
             <h3>💈 Barber</h3>
             <p>Modern haircuts, beard trimming and grooming services.</p>
-            <button>Book Now</button>
+            <button onclick="bookService('Barber')">
+                Book Now
+            </button>
         </div>
 
         <div class="card">
             <h3>💅 Nail Spa</h3>
             <p>Manicure, pedicure and creative nail art designs.</p>
-            <button>Book Now</button>
+            <button onclick="bookService('Nail Spa')">
+                Book Now
+            </button>
         </div>
 
         <div class="card">
             <h3>💆 Massage</h3>
             <p>Relaxing full body massage by experienced therapists.</p>
-            <button>Book Now</button>
+            <button onclick="bookService('Massage')">
+                Book Now
+            </button>
         </div>
 
         <div class="card">
             <h3>✨ Facial</h3>
             <p>Facial cleansing, exfoliation and skin rejuvenation treatments.</p>
-            <button>Book Now</button>
+            <button onclick="bookService('Facial')">
+                Book Now
+            </button>
         </div>
 
         <div class="card">
             <h3>💄 Makeup</h3>
             <p>Professional makeup for weddings, parties and special events.</p>
-            <button>Book Now</button>
+            <button onclick="bookService('Makeup')">
+                Book Now
+            </button>
         </div>
 
     </div>
@@ -215,32 +237,60 @@
         <select id="service" required>
             <option value="">Choose a Service</option>
             <option>Hair Salon</option>
+            <option>Dreadlocks</option>
             <option>Barber</option>
-            <option>Massage</option>
             <option>Nail Spa</option>
+            <option>Massage</option>
             <option>Facial</option>
             <option>Makeup</option>
         </select>
 
         <input type="date" id="date" required>
-
         <input type="time" id="time" required>
 
-        <textarea
-            id="notes"
-            placeholder="Additional Notes (Optional)"
-            rows="5">
-        </textarea>
+       <textarea id="notes" placeholder="Additional Notes (Optional)" rows="5"></textarea>
 
-        <button type="submit">
-            Book Appointment
-        </button>
+<button type="submit">Book Appointment</button>
 
-    </form>
+</form>
+
+<div id="successMessage" class="success-message">
+
+    <div class="success-icon">✅</div>
+
+    <h3>Appointment Booked Successfully!</h3>
+
+    <p>
+        Thank you for choosing <strong>LuxeGlow Beauty Lounge</strong>.
+    </p>
+
+    <p>
+    Your appointment has been received and is awaiting confirmation.
+</p>
+
+<h3 id="bookingReference"></h3>
+
+<p>
+    Please save this booking reference.
+</p>
+
+    
+
+</div>
+
+<div class="booking-status-link">
+
+    <p><strong>Already booked?</strong></p>
+
+    <p>Track your appointment or see whether it has been confirmed.</p>
+
+    <a href="check-booking.html" class="check-status-btn">
+        Check Booking Status
+    </a>
+
+</div>
 
 </section>
-
-<section class="testimonials">
 
     <h2>What Our Clients Say</h2>
 

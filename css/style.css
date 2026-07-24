@@ -576,3 +576,133 @@ nav{
 }
 
 }
+
+.booking-status-link{
+
+    text-align:center;
+
+    margin-top:30px;
+
+}
+
+.check-status-btn{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+    padding:12px 25px;
+
+    background:#b8860b;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+.check-status-btn:hover{
+
+    background:#8b6508;
+
+}
+
+.hero-btn{
+
+    display:inline-block;
+
+    padding:15px 30px;
+
+    background:#b8860b;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+.hero-btn:hover{
+
+    background:#8b6508;
+
+}
+
+.success-message{
+
+    display:none;
+
+    max-width:650px;
+
+    margin:40px auto;
+
+    padding:35px;
+
+    text-align:center;
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+    animation:fadeIn .6s ease;
+
+}
+
+.success-icon{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.success-message h3{
+
+    color:#2e7d32;
+
+    margin-bottom:15px;
+
+}
+
+.success-message p{
+
+    margin-bottom:15px;
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
